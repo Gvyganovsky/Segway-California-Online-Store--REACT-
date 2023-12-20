@@ -63,6 +63,19 @@
     margin: 15px auto 0;
     background-color: white;
     border: 1px solid #C6C6C6;
+    transition: all 0.3s ease; /* Анимация перехода */
+}
+
+.accessories_button:hover {
+    background-color: #F0F0F0;
+    border-color: #999999;
+    color: #333333;
+}
+
+.accessories_button:active {
+    background-color: #CCCCCC;
+    border-color: #666666;
+    color: #000000;
 }
 
 .accessories_priceText {
@@ -79,6 +92,16 @@
     margin: 15px auto;
     display: flex;
     border: 0;
+    transition: background-color 0.3s ease; 
+}
+
+.SeeMore:hover {
+    background-color: #007acc;
+    cursor: pointer; 
+}
+
+.SeeMore:active {
+    background-color: #005a99;
 }
 
 @media (max-width: 450px) {

@@ -50,6 +50,12 @@
     border: 1px solid #999999;
     margin: 0 10px 0 0;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.warranty_button:hover {
+    background-color: #999999;
+    color: white;
 }
 
 .price {
@@ -101,6 +107,15 @@
     color: white;
     border: 0;
     margin-bottom: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.button_price:hover {
+    background-color: #007acc;
+}
+
+.button_price:active {
+    background-color: #005a99;
 }
 
 .button_price:first-child {
@@ -119,6 +134,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 @media (max-width: 950px) {
